@@ -30,6 +30,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Link href="/about" className="text-green-600 hover:underline">
             Sobre
           </Link>
+          <Link href="/certificates" className="text-yellow-600 hover:underline">
+            Meus Certificados
+          </Link>
           <Link href="/contact" className="text-red-600 hover:underline">
             Contato
           </Link>
